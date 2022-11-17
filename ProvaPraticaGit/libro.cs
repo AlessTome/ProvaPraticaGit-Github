@@ -14,6 +14,7 @@ namespace ProvaPraticaGit
         internal string editore { get; set; }
         internal int numeroDiPagine { get; set; }
 
+        //Creo il metodo toString che mi permette di memorizzare i dati e di far ritornare i dati generali
         public string toString (string Autore, string Titolo, string AnnoDiPubblicazione, string Editore, int NumeroDiPagine)
         {
             Autore = autore;
@@ -26,7 +27,7 @@ namespace ProvaPraticaGit
             datiLibro = Autore + Titolo + AnnoDiPubblicazione + Editore + NumeroDiPagine;
             return datiLibro;
         }
-
+        //Creo il metodo readingTime che mi permette di capire il tempo di lettura medio in base al numero di pagine
         public void readingTime(int NumeroPagine)
         {
             NumeroPagine = numeroDiPagine;
