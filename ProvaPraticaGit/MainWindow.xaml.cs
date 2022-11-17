@@ -24,7 +24,7 @@ namespace ProvaPraticaGit
         {
             InitializeComponent();
         }
-
+        //Ricavo i dati relativi al libro
         private void creaLibro_btn_Click(object sender, RoutedEventArgs e)
         {
             toString(Autore, Titolo, AnnoDiPubblicazione, Editore, NumeroDiPagine);
@@ -39,7 +39,7 @@ namespace ProvaPraticaGit
 
 
         }
-
+        //Ricavo i dati relativi alla biblioteca
         private void biblioteca_btn_Click(object sender, RoutedEventArgs e)
         {
             Biblioteca(nome, orariApertura, orariChiusura, elencoLibri);
