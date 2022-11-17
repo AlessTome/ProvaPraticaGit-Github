@@ -14,7 +14,7 @@ namespace ProvaPraticaGit
         internal string orariChiusura { get; set; }
         internal int elencoLibri { get; set; }
 
-        
+        //Creo il metodo Biblioteca che mi permette di memorizzare i dati 
         public void Biblioteca (string nome, string indirizzo, string orariApertura, string orariChiusura, int elencoLibri)
         {
             this.nome = nome;
