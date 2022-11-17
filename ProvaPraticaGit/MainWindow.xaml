@@ -13,6 +13,8 @@
         <TextBox x:Name="annoPubblicazione_txt" HorizontalAlignment="Left" Margin="138,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="editore_txt" HorizontalAlignment="Left" Margin="138,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="numeroPagine_txt" HorizontalAlignment="Left" Margin="138,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="creaLibro_lbl" Content="Label" HorizontalAlignment="Left" Margin="302,60,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="readingTime_lbl" Content="Label" HorizontalAlignment="Left" Margin="302,97,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

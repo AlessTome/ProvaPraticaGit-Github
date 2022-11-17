@@ -27,8 +27,15 @@ namespace ProvaPraticaGit
 
         private void creaLibro_btn_Click(object sender, RoutedEventArgs e)
         {
-            ToString(Autore, Titolo, AnnoDiPubblicazione, Editore, NumeroDiPagine);
-            autore_txt.Text 
+            toString(Autore, Titolo, AnnoDiPubblicazione, Editore, NumeroDiPagine);
+            autore_txt.Text toString.Autore;
+            titolo_txt.Text toString.Titolo;
+            annoPubblicazione_txt.Text toString.AnnoDiPubblicazione;
+            editore_txt.Text toString.Editore;
+            numeroPagine_txt.Text toString.NumeroDiPagine;
+
+            creaLibro_lbl = toString(Autore, Titolo, AnnoDiPubblicazione, Editore, NumeroDiPagine);
+            readingTime_lbl = readingTime_lbl(numeroPagine);
         }
     }
 }
