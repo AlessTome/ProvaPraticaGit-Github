@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="creaLibro_btn" Content="CreaLibro" HorizontalAlignment="Left" Margin="71,60,0,0" VerticalAlignment="Top" Click="creaLibro_btn_Click"/>
+        <TextBox x:Name="autore_txt" HorizontalAlignment="Left" Margin="138,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="titolo_txt" HorizontalAlignment="Left" Margin="138,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="annoPubblicazione_txt" HorizontalAlignment="Left" Margin="138,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="editore_txt" HorizontalAlignment="Left" Margin="138,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="numeroPagine_txt" HorizontalAlignment="Left" Margin="138,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

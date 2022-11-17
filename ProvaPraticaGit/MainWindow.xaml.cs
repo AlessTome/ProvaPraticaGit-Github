@@ -24,5 +24,11 @@ namespace ProvaPraticaGit
         {
             InitializeComponent();
         }
+
+        private void creaLibro_btn_Click(object sender, RoutedEventArgs e)
+        {
+            ToString(Autore, Titolo, AnnoDiPubblicazione, Editore, NumeroDiPagine);
+            autore_txt.Text 
+        }
     }
 }
