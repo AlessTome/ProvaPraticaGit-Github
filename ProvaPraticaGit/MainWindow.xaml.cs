@@ -35,14 +35,18 @@ namespace ProvaPraticaGit
             numeroPagine_txt.Text toString.NumeroDiPagine;
 
             creaLibro_lbl = toString(Autore, Titolo, AnnoDiPubblicazione, Editore, NumeroDiPagine);
-            readingTime_lbl = readingTime_lbl(NumeroPagine);
+            readingTime_lbl = readingTime(NumeroPagine);
 
 
         }
 
         private void biblioteca_btn_Click(object sender, RoutedEventArgs e)
         {
-            Biblioteca()
+            Biblioteca(nome, orariApertura, orariChiusura, elencoLibri);
+            nome_lbl = Biblioteca.nome;
+            orariApertura_lbl = Biblioteca.orariApertura;
+            orariChiusura_lbl = Biblioteca.orariChiusura;
+            elencoLibri_lbl = Biblioteca.elencoLibri;
         }
     }
 }
