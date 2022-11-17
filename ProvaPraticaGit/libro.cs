@@ -14,7 +14,9 @@ namespace ProvaPraticaGit
         internal string editore { get; set; }
         internal int numeroDiPagine { get; set; }
 
-        //Creo il metodo toString che mi permette di memorizzare i dati e di far ritornare i dati generali
+
+        //Creo il metodo toString che mi permette di far ritornare i dati generali
+
         public string toString (string Autore, string Titolo, string AnnoDiPubblicazione, string Editore, int NumeroDiPagine)
         {
             Autore = autore;
